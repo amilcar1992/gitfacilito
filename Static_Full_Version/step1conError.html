@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="wicket/resource/org.apache.wicket.extensions.wizard.Wizard/Wizard.min-ver-1252BCDD7712D58E1946B93691AAB970.css" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SUGAR</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="css/plugins/steps/jquery.steps.css" rel="stylesheet">
+    </head>
+    <body class="gray-bg">
+        <div class="middle-box text-center animated fadeInDown">
+            <div class="middle-box text-center loginscreen animated fadeInDown">
+                <div>
+                    <div>
+                        <h1 class="logo-name2" style="font-size: 90px">SUGAR</h1>
+                    </div>
+                    <h4>
+                        Sistema Único de Gestión y Administración de Recuros
+                        de LACNIC.
+                    </h4>
+                </div>
+            </div>
+            <div>
+                <div class="wicketExtensionsWizard">
+                    <form class="wicketExtensionsWizardForm" id="id51" method="post" action="wicket/page?36-1.IFormSubmitListener-newUserWizard-form"><div style="width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden"><input type="hidden" name="id51_hf_0" id="id51_hf_0" /></div><div style="width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden"><input type="text" autocomplete="off"/><input type="submit" name="buttons:next" onclick=" var b = document.getElementById('id52'); if (b != null & amp; & amp; b.onclick != null & amp; & amp; typeof (b.onclick) != 'undefined') {  var r = Wicket.bind(b.onclick, b)(); if (r != false) b.click(); } else { b.click(); }; return false;"  /></div>
+                        <table class="wicketExtensionsWizardOuterTable">
+                            <tr>
+                                <td valign="top"></td>
+                                <td valign="top">
+                                    <table class="wicketExtensionsWizardInnerTable">
+                                        <tr class="wicketExtensionsWizardHeaderRow">
+                                            <td valign="top" class="wicketExtensionsWizardHeader"><span>
+                                                    <div>
+                                                        <div class="wicketExtensionsWizardHeaderTitle">Crear una cuenta nueva</div>
+                                                        <div class="wicketExtensionsWizardHeaderSummary">Seleccione el idioma</div>
+                                                    </div>
+                                                </span></td>
+                                        </tr>
+                                        <tr class="wicketExtensionsWizardViewRow">
+                                            <td valign="top" class="wicketExtensionsWizardView"><div class="wicketExtensionsWizardViewInner">
+                                                    <div class="wizard clearfix">
+                                                        <div class="steps clearfix">
+                                                            <ul role="tablist">
+                                                                <li class="error"><a>1. Idioma</a></li>
+                                                                <li class="disabled"><a>2. Personales</a></li>
+                                                                <li class="disabled"><a>3. Dirección</a></li>
+                                                                <li class="disabled"><a>4. Finalizar</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <fieldset>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label>Idioma</label> 
+                                                                    <select class="form-control m-b" name="view:language">
+                                                                        <option selected="selected" value="">Elija uno</option>
+                                                                        <option value="SP">Español</option>
+                                                                        <option value="EN">English</option>
+                                                                        <option value="PT">Português</option>
+                                                                    </select></div>
+                                                            </div> <!-- 			<div class="col-lg-4"> --> <!-- 				<div class="text-center"> --> <!-- 					<div style="margin-top: 20px"><i class="fa fa-language" style="font-size: 180px; color: #e5e5e5"></i></div> --> <!-- 			</div> --> <!-- 		</div> -->
+                                                        </div>
+                                                    </fieldset>
+                                                </div></td>
+                                        </tr>
+                                        <tr class="wicketExtensionsWizardFeedbackRow">
+                                            <td valign="top" class="wicketExtensionsWizardFeedback"><span>
+                                                    <ul class="feedbackPanel">
+                                                        <li class="feedbackPanelERROR">
+                                                            <span class="feedbackPanelERROR">El campo 'Idioma' es obligatorio.</span>
+                                                        </li>
+                                                    </ul>
+                                                </span></td>
+                                        </tr>
+                                        <tr class="wicketExtensionsWizardButtonBarRow">
+                                            <td valign="top" class="wicketExtensionsWizardButtonBar"><span>
+
+                                                    <div>
+                                                        <input type="submit" value="Anterior" name="buttons:previous" disabled="disabled" id="id53"/>
+                                                        <input type="submit" value="Siguiente" name="buttons:next" id="id52"/>
+
+                                                        <input type="submit" value="Cancelar" name="buttons:cancel" id="id54"/>
+                                                        <input type="submit" value="Guardar" name="buttons:finish" disabled="disabled" id="id55"/>
+                                                    </div>
+                                                </span></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="middle-box text-center loginscreen animated fadeInDown"><img alt="logo" src="logo-lacnic.png" style="width: 40%; margin-top: 20%"></div>
+        </div>
+        <!-- Mainly scripts -->
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+        <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+        <!-- Custom and plugin javascript -->
+        <script src="js/inspinia.js"></script>
+        <script src="js/plugins/pace/pace.min.js"></script>
+    </body>
+</html>
+

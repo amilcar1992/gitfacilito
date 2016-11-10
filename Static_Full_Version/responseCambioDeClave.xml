@@ -1,0 +1,34 @@
+HAY DOS EJEMPLOS
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <epp xmlns="urn:ietf:params:xml:ns:epp-1.0"
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0
+
+epp-1.0.xsd">
+<response>
+  <result code="2308"><msg>Data management policy violation</msg></result>
+  <trID>
+
+ <clTRID>e-AIL-200.160.3.97-Y4dPrSpYoziVTydy</clTRID><svTRID>20150820151536-028-0012</svTRID>
+  </trID>
+</response> </epp> 
+
+
+OTRO EJEMPLO 
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <epp xmlns="urn:ietf:params:xml:ns:epp-1.0"
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0
+
+epp-1.0.xsd">
+<response>
+  <result code="2308"><msg>Data management policy violation</msg></result>
+  <trID>
+
+ <clTRID>e-YAM-200.160.3.97-FUqn6mML1w7Ubhhr</clTRID><svTRID>20150820160439-028-0005</svTRID>
+  </trID>
+</response> </epp> 

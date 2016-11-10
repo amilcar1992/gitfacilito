@@ -1,0 +1,46 @@
+/*General*/
+.middle-box{min-width: 580px;padding: 0;overflow: hidden;margin-bottom: 20px;}
+.middle-box.loginscreen{width:300px; min-width: 300px}
+input.form-control{border: 1px solid #ccc !important;}
+
+/*FeedBack*/
+.feedbackPanel{list-style:none !important;padding: 0 !important;}
+.feedbackPanel > li {padding: 15px !important;margin-bottom: 20px !important;border: 1px solid transparent !important;border-radius: 4px !important;}
+.feedbackPanel > li a {font-weight: bold !important;}
+.feedbackPanel > li > span,
+.feedbackPanel > li > ul {margin-bottom: 0 !important;}
+.feedbackPanel > li > span + span {margin-top: 5px !important;}
+.feedbackPanel > li.feedbackPanelERROR {color: #a94442; background-color: #f2dede;border-color: #ebccd1;}
+.feedbackPanel > li.feedbackPanelERROR a {color: #843534;}
+.feedbackPanel > li.feedbackPanelINFO {color: #31708f;background-color: #d9edf7;border-color: #bce8f1;}
+.feedbackPanel > li.feedbackPanelINFO a {color: #245269;}
+
+/*Wizard*/
+.wizard{margin-bottom: 10px}
+.wizard > .steps a,
+.wizard > .steps a:hover,
+.wizard > .steps a:active{margin: 0 !important; }
+.wizard > .steps > ul > li{ width: 23.5% !important;}
+.wizard > .steps li+li{ margin-left: 2% !important;}
+.wicketExtensionsWizard > * {text-align: left;color: rgb(103,106,108);}
+.wicketExtensionsWizardHeaderRow{border-top:5px solid #e7eaec;background: #fff; display: block; margin: 0; overflow: hidden; position: relative; width: auto; }
+.wicketExtensionsWizardHeader{float: left; width: 95%; height: 95%; padding: 2.5% 2.5% 10px 2.5%;}
+.wicketExtensionsWizardViewRow{background: #fff; display: block; margin: 0 ; min-height: 120px; overflow: hidden; position: relative; width: auto; }
+.wicketExtensionsWizardView{float: left; width: 100%; height: 95%; padding: 0 2.5% 2.5% 2.5%;}
+.wicketExtensionsWizardFeedback{ padding: 0 2.5% 0 2.5%;}
+.wicketExtensionsWizardButtonBar{ padding: 0 2.5% 25px 2.5%;}
+.wicketExtensionsWizardOuterTable {width: 100%}
+.wicketExtensionsWizardInnerTable{width: 100%}
+.wicketExtensionsWizardHeaderTitle{font-size: 24px;font-weight: 100;line-height: 1.1;margin-bottom: 15px;}
+.wicketExtensionsWizardHeaderSummary{margin-bottom: 10px;}
+.wicketExtensionsWizardFeedbackRow{background-color: #fff;display: block; margin: 0; overflow: hidden; position: relative; width: auto; }
+.wicketExtensionsWizardFeedback{width: 100%;display: block}
+.wicketExtensionsWizardButtonBarRow{background-color: #fff;position: relative; display: block; text-align: right; width: 100%;}
+.wicketExtensionsWizardButtonBar{display: inline-block; text-align: right;}
+.wicketExtensionsWizardButtonBar input,
+.wicketExtensionsWizardButtonBar input:hover,
+.wicketExtensionsWizardButtonBar input:active{ border: none;outline: 0 none;text-align: right;margin: 0 0.5em;background: #1AB394; color: #fff; display: block; padding: 0.5em 1em; text-decoration: none; float: left; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.wicketExtensionsWizardButtonBar input:disabled{background: #eee; color: #aaa;}
+.wicketExtensionsWizardViewInner > fieldset { min-height: 350px !important; background-color: #eeeeee; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 20px 13px;}
+.wicketExtensionsWizardViewInner > fieldset h2{margin: 0}
+.wicketExtensionsWizardViewInner > fieldset p{margin: 10px 0 10px 0}
